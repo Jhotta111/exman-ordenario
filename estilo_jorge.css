@@ -1,3 +1,80 @@
+/*Importacion de fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+
+
+/*prametros de Body*/
+body {
+    background-color: lightgreen;
+}
+
+/*Todo loo relacionado con Header*/
+
+header {
+    font-family: 'Zhi Mang Xing', cursive;
+    background-color: tomato;
+    text-align: center;
+    color: blue;
+    text-shadow: grey 6px 6px 3px;
+    height: 60px;
+}
+
+
+/*Todo lo relacionado con Nav*/
+
+nav {
+    text-align: center;
+}
+
+a{
+    background-color: tomato;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+}
+
+a:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+
+
+/*Todo lo relacionado con Section Uno*/
+
+section.uno {
+    background-color: tomato;
+}
+
+pre {
+    counter-reset: cuenta-parrafos;
+  }
+  
+  p.uno::before {
+    content: counter(cuenta-parrafos);
+    counter-increment: cuenta-parrafos;
+  }
+
+  
+
+
+
+/*Todo lo relacionado con Section dos*/
+
+section.dos {
+    
+    background-color: tomato;
+}
+
+/*Paámetros de la tabla y sus elementos*/
 table {
     background-color: skyblue;
     text-align: center;
