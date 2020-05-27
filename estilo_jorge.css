@@ -1,0 +1,62 @@
+table {
+    background-color: skyblue;
+    text-align: center;
+    height: 120px;
+    width: 50%;
+    border: 1px solid black;
+
+}
+
+
+caption {
+    text-align: left;
+}
+
+th,td {
+    border: 1px solid black;
+}
+
+input:focus {
+    background-color: blue;
+    border: red 3px solid;
+    color: white;
+}
+
+td.color:hover {
+    border:  blue 1px solid;
+    color: blue;
+}
+
+
+
+/*La linea Gorda*/
+hr.dos {
+    height: 15px;
+    width: 50%;
+    background-color: yellow;
+    border: red 2px solid;
+}
+
+/*Todo lo relacionado a section tres*/
+
+p.tres {
+
+    background-color: skyblue;
+    border-top: red 15px dashed;
+    border-bottom: red 15px dashed;
+    border-left: green 25px solid;
+    border-right: green 25px solid;
+    text-align: center;
+    color: blue;
+}
+
+
+
+/*Todo lo relacionado con Footer*/
+
+footer {
+    background-color: grey;
+    text-align: center;
+    height: 50px;
+
+}
